@@ -19,7 +19,6 @@ void inicializarCarrinho() {
 }
 
 void aceleracao(int modo) {
-    // Corrigido o operador de comparação
     if (modo == 1) {
         analogWrite(enableA, 40);
         analogWrite(enableB, 40);
