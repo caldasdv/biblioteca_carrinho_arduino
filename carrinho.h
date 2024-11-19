@@ -2,7 +2,7 @@
 #ifndef CARRINHO_H
 #define CARRINHO_H
 
-// Pin definitions
+// Pins
 #define INT1 2
 #define INT2 3
 #define INT3 4
@@ -10,7 +10,7 @@
 #define enableA 9
 #define enableB 10
 
-// Function prototypes
+// Protótipos de função
 void inicializarCarrinho();
 void aceleracao(int modo);
 void frente();
